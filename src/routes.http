@@ -1,0 +1,79 @@
+POST http://localhost:3000/usuarios/cadastro
+Content-Type: application/json
+Accept-Language: pt-BR
+
+{
+	"name": "João Paulo Silva dos Santos", 
+	"age": 26, 
+	"email": "joao@gmail.com" 
+}
+
+
+# [  { 
+# 		"name": "Carlos Lima", 
+# 	 "age": 35, 
+# 	 "email": "carlos.lima@example.com" 
+# 	},
+#   { 
+# 		"name": "Fernanda Oliveira", 
+# 	 "age": 22, 
+# 	 "email": "fernanda.oliveira@example.com" 
+# 	},
+#   { 
+# 		"name": "João Pedro", 
+# 	 "age": 31, 
+# 	 "email": "joao.pedro@example.com"
+# 	},
+#   { 
+# 		"name": "Mariana Castro", 
+# 	 "age": 27, 
+# 	 "email": "mariana.castro@example.com" 
+# 	},
+#   {
+# 		"name": "Bruno Rocha", 
+# 	 "age": 30, 
+# 	 "email": "bruno.rocha@example.com"
+# 	},
+#   { 
+# 		"name": "Larissa Almeida", 
+# 	 "age": 24, 
+# 	 "email": "larissa.almeida@example.com"
+# 	},
+#   { 
+# 		"name": "Rafael Santos", 
+# 	 "age": 29, 
+# 	 "email": "rafael.santos@example.com" 
+# 	},
+#   { 
+# 		"name": "Juliana Mello", 
+# 	 "age": 26,
+# 	 "email": "juliana.mello@example.com" 
+# 	},
+#   { 
+# 		"name": "Diego Martins", 
+# 	 "age": 33, 
+# 	 "email": "diego.martins@example.com" 
+# 	}
+# ]
+
+###
+
+GET http://localhost:3000/usuarios/todos
+Content-Type: application/json
+Accept-Language: pt-BR
+
+###
+
+//PUT http://localhost:3333/imagens/44a082ec-dc37-4dc8-830f-3b81fc2f7ca5
+//Content-Type: application/json
+
+# {
+#   "title": "nova imageeeeem2",
+#   "description": "qwertyuioppg"
+# }
+###
+
+
+DELETE http://localhost:4242/usuarios/e4dade1a-3188-4979-b1a6-7b5fbcd3797b
+
+###
