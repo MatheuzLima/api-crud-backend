@@ -72,4 +72,4 @@ src/controllers/userControllers.js
 src/models/index.js
 src/models/User.js
 src/database/migrations/20250731025647-create-users.js
-Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. ``````
+Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. `````` 
