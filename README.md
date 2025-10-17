@@ -9,8 +9,8 @@ Projeto pessoal para estudos em backend: API REST simples em Node.js que se cone
 - PostgreSQL (imagem Docker)
 - Migrations com Sequelize ([src/database/migrations/20250731025647-create-users.js](src/database/migrations/20250731025647-create-users.js))
 
-## Estrutura importante do repositório
-- [.sequelizerc](.sequelizerc) — configuração do caminho das migrations, models e config
+## Estrutura
+- [src/.sequelizerc](.sequelizerc) — configuração do caminho das migrations, models e config
 - [package.json](package.json)
 - [src/server.js](src/server.js) — inicialização do Fastify e conexão com DB
 - [src/routes.js](src/routes.js) — registro das rotas com prefixo `/usuarios` (export `userRoutes`)
