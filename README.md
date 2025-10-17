@@ -32,7 +32,7 @@ Prefixo: `/usuarios` (registrado em [src/server.js](src/server.js) via [`userRou
 Exemplos de requisição estão em [src/routes.http](src/routes.http).
 
 ## Como rodar (local / Docker)
-1. Instale dependências:
+1. Instale dependências, na pasta /src:
 ```sh
 npm install
 ```
@@ -43,7 +43,7 @@ docker run --name pg-cadastro -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=000
 ```
 A configuração de conexão usada no projeto está em src/config/database.js.
 
-3. Rodar migrations (caso use sequelize-cli):
+3. Rodar migrations (caso use sequelize-cli), na pasta /src:
 ```sh
 npx sequelize-cli db:migrate
 ```
