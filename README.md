@@ -57,4 +57,4 @@ npm run dev
 Servidor inicia em: http://localhost:3000 (ver src/server.js)
 
 ## Observações
-# Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. `````` 
+Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. `````` 
