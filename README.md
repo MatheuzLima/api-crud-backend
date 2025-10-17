@@ -57,19 +57,4 @@ npm run dev
 Servidor inicia em: http://localhost:3000 (ver src/server.js)
 
 ## Observações
-O modelo User é inicializado em src/models/User.js via User.init.
-A autenticação com o banco é feita em src/server.js através de sequelize.authenticate().
-As migrations estão em src/database/migrations/20250731025647-create-users.js.
-Referências
-Arquivos do projeto:
-.sequelizerc
-package.json
-src/routes.http
-src/routes.js
-src/server.js
-src/config/database.js
-src/controllers/userControllers.js
-src/models/index.js
-src/models/User.js
-src/database/migrations/20250731025647-create-users.js
-Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. `````` 
+# Projeto para estudo — sinta-se à vontade para ajustar configuração de ambiente e scripts conforme sua necessidade. `````` 
