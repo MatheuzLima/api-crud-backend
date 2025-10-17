@@ -11,7 +11,7 @@ Projeto pessoal para estudos em backend: API REST simples em Node.js que se cone
 
 ## Estrutura
 - [src/.sequelizerc](.sequelizerc) — configuração do caminho das migrations, models e config
-- [package.json](package.json)
+- [src/package.json](package.json)
 - [src/server.js](src/server.js) — inicialização do Fastify e conexão com DB
 - [src/routes.js](src/routes.js) — registro das rotas com prefixo `/usuarios` (export `userRoutes`)
   - handler de rotas em [src/controllers/userControllers.js](src/controllers/userControllers.js) — [`getAllUsers`](src/controllers/userControllers.js), [`createUser`](src/controllers/userControllers.js), [`updateUser`](src/controllers/userControllers.js), [`deleteUser`](src/controllers/userControllers.js)
